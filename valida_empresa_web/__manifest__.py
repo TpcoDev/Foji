@@ -1,23 +1,24 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "TPCO Project",
+    'name': "Ahorasoft TPCO Project",
     'category': 'TPCO',
-    'version': '1.0.0',
-    'author': "Tpco",
-    'website': 'http://www.tpco.cl',
-    "support": " ",
+    'version': '1.0.1',
+    'author': "Ahorasoft",
+    'website': 'http://www.ahorasoft.com',
+    "support": "soporte@ahorasoft.com",
     'summary': """
-         TPCO Project""",
+        Ahorasoft TPCO Project""",
     'description': """
-         TPCO Project
+        Ahorasoft TPCO Project
     """,
     "images": [],
     "depends": [
-        "website_sale"
+        "website_sale","sh_request_quote_multiple"
     ],
     'data': [
         # 'security/ir.model.access.csv',
         'views/as_template.xml',
+        'views/assets.xml',
     ],
     'qweb': [
     ],
