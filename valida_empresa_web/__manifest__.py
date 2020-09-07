@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Ahorasoft TPCO Project",
+    'name': " TPCO Project",
     'category': 'TPCO',
     'version': '1.0.1',
-    'author': "Ahorasoft",
-    'website': 'http://www.ahorasoft.com',
-    "support": "soporte@ahorasoft.com",
+    'author': "",
+    'website': 'http://www.tpco.cl',
+    "support": "",
     'summary': """
-        Ahorasoft TPCO Project""",
+         TPCO Project""",
     'description': """
-        Ahorasoft TPCO Project
+        Valida empresa y flujo cotizacion  
     """,
     "images": [],
     "depends": [
