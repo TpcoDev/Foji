@@ -2,22 +2,23 @@
 {
     'name': "TPCO Project",
     'category': 'TPCO',
-    'version': '1.0.0',
-    'author': "Tpco",
-    'website': 'http://www.tpco.cl',
-    "support": " ",
+    'version': '1.0.2',
+    'author': "tpco",
+    'website': 'www.tpco.cl',
+    "support": "tpco@tpco.cl",
     'summary': """
-         TPCO Project""",
+        TPCO Project""",
     'description': """
-         TPCO Project
+        TPCO Project
     """,
     "images": [],
     "depends": [
-        "website_sale"
+        "website_sale","sh_request_quote_multiple"
     ],
     'data': [
         # 'security/ir.model.access.csv',
         'views/as_template.xml',
+        'views/assets.xml',
     ],
     'qweb': [
     ],
